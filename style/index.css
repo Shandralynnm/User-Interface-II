@@ -1,1 +1,63 @@
 /* Add CSS styling here */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    border: 1px solid grey; 
+}
+
+.container {
+    background: lightblue; 
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h2{
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+    justify-content: space-between;
+}
+
+.mainImg {
+    width: 80%;
+    height: 400px;
+    background-image: url("../Images/mountains.jpg");
+    background-size: cover; 
+    background-repeat: no repeat;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mainImg h2{
+    text-align: center;
+}
+
+
+.cardContainer img {
+   max-width: 40%;
+   height: auto;
+   
+}
+
+.cardContainer {
+    display: flex; 
+    align-items: stretch; 
+    justify-content: space-around;
+    align-content: space-around;
+   
+    
+}
+
+
+footer {
+    text-align: center;
+}
