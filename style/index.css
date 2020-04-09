@@ -43,16 +43,18 @@ header h2{
 
 
 .cardContainer img {
-   max-width: 30%;
+   max-width: 40%;
    height: auto;
-      
+   
 }
 
 .cardContainer {
     display: flex; 
-    align-items: center; 
-    justify-content: center;
-    justify-content: space-evenly;
+    align-items: stretch; 
+    justify-content: space-around;
+    align-content: space-around;
+   
+    
 }
 
 
